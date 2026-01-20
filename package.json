@@ -1,17 +1,26 @@
 {
+  "$schema": "https://json.schemastore.org/package.json",
   "name": "llm-tools",
   "version": "1.0.0",
   "description": "LLM tools for flight, hotel, and currency conversion",
   "main": "main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "type": "module",
-  "license": "ISC",
   "dependencies": {
     "dotenv": "^17.2.3",
     "openai": "^6.16.0"
-  }
+  },
+  "scripts": {
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shanellmusarurwa/LLM-Tools.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/shanellmusarurwa/LLM-Tools/issues"
+  },
+  "homepage": "https://github.com/shanellmusarurwa/LLM-Tools#readme"
 }
